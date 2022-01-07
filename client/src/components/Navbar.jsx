@@ -39,7 +39,7 @@ const Navbar = () => {
                     flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
                 >
                     <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
-                    {["Market", "Exchange", "Tutorials", "Wallets"].map(
+                    {["Market", "Exchange", "Documentation", "Wallets"].map(
                     (item, index) => <NavBarItem key={item + index} title={item} classprops="my-2 text-lg" />,
                     )}
                 </ul>

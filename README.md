@@ -19,14 +19,16 @@ Web3.0 blockchain application that allows user to transfer ethereum on the ropst
 
 ### Available Scripts
 
-In both the client folder and the smart_contract folders, run:
+In the project directory, you can run:
 ### `npm install`
-
 Needs to direct to the client folder or the smart_contract folder before `npm install`
 ```
 cd client
 cd smart_contract
 ```
-
-Start the script in the client folder on the localhost:
 ### `npm run dev`
+Start the script in the client folder on the localhost.
+### `npm run build`
+Builds the app for production to the dist(build) folder.
+
+Create a .env file under the client folder for enabling the giphy api.

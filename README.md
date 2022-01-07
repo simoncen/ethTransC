@@ -11,6 +11,7 @@ Web3.0 blockchain application that allows user to transfer ethereum on the ropst
   4. Set the message user want to convey with the transaction.
   
 * Users can checkout the transaction record on the bottom of the screen with the associated address, amount of ethereum, gif, and message.
+* The login, market, exchange, documentation, and wallets button are not immplemented. They are not the main features of this application.
 
 ## Main Page:
 <img width="1792" alt="ethTransC" src="https://user-images.githubusercontent.com/56233967/148585653-071c44db-3c41-49df-969e-7fd456ec47df.png">
